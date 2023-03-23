@@ -18,7 +18,7 @@ jobs:
       - name: Trigger jenkins job
         uses: chuanqi129/build-jenkins-job@master
         with:
-          jenkins-url: http://34.207.154.58/:8080/
+          jenkins-url: 34.207.154.58:8080/
           job-path: job/aws_jenkins_job
           user: chuanqiw
           jenkins-token: ${{ secrets.AWS_JENKINS }}
