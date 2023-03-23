@@ -19,7 +19,7 @@ jobs:
         uses: chuanqi129/build-jenkins-job@master
         with:
           jenkins-url: http://3.90.82.245:8080/
-          job_path: job/aws_jenkins_job
+          job-path: job/aws_jenkins_job
           user: chuanqiw
           jenkins-token: ${{ secrets.AWS_JENKINS }}
 #       - name: Get job status
