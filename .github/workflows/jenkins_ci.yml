@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger jenkins job
-        uses: joshlk/jenkins-githubaction@master
+        uses: chuanqi129/jenkins-githubaction@master
         with:
           url: http://3.90.82.245:8080/
           job_name: aws_jenkins_job
