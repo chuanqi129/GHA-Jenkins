@@ -20,6 +20,6 @@ jobs:
         with:
           url: http://3.90.82.245:8080/
           job_name: aws_jenkins_job
-          username: ${{ secrets.JENKINS_USER }}
-          api_token: ${{ secrets.JENKINS_TOKEN }}
+          username: chuanqiw
+          api_token: ${{ secrets.AWS_JENKINS }}
           timeout: "1000"
