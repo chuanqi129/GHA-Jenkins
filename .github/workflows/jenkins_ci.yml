@@ -18,9 +18,10 @@ jobs:
       - name: Trigger jenkins job
         uses: chuanqi129/build-jenkins-job@master
         with:
-          jenkins-url: http://3.90.82.245:8080/
+          jenkins-url: http://34.207.154.58/:8080/
           job-path: job/aws_jenkins_job
           user: chuanqiw
           jenkins-token: ${{ secrets.AWS_JENKINS }}
+          job-params: "{'test_node': 'test'}"
 #       - name: Get job status
 #           run: echo "Job status is ${{ steps.job-build.outputs.job_status }}"
