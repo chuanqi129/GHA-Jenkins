@@ -22,6 +22,6 @@ jobs:
           job-path: job/aws_jenkins_job
           user: chuanqiw
           jenkins-token: ${{ secrets.AWS_JENKINS }}
-          job-params: "{'test_node': 'test'}"
+          job-params: '{"test_node": "test"}'
 #       - name: Get job status
 #           run: echo "Job status is ${{ steps.job-build.outputs.job_status }}"
