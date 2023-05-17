@@ -7,7 +7,7 @@ on:
     
 jobs:
 
-  nightly test:
+  nightly_test:
   
     runs-on: ubuntu-latest
     steps:
